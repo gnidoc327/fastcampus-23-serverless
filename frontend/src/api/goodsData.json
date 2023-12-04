@@ -1,0 +1,51 @@
+[
+  {
+    "id": "1",
+    "name": "육사시미",
+    "price": 10000,
+    "description": "대전 유명 국밥집의 사이드 메뉴",
+    "image_url": "/goods_images/1.jpg"
+  },
+  {
+    "id": "2",
+    "name": "국밥",
+    "price": 9000,
+    "description": "대전 유명 국밥집",
+    "image_url": "/goods_images/2.jpg"
+  },
+  {
+    "id": "3",
+    "name": "썸머라떼",
+    "price": 5000,
+    "description": "우유 아이스크림 커피",
+    "image_url": "/goods_images/3.jpg"
+  },
+  {
+    "id": "4",
+    "name": "킹크랩",
+    "price": 150000,
+    "description": "크래미맛 킹크랩",
+    "image_url": "/goods_images/4.jpg"
+  },
+  {
+    "id": "5",
+    "name": "장칼국수",
+    "price": 11000,
+    "description": "뜨끈 매콤한 칼국수",
+    "image_url": "/goods_images/5.jpg"
+  },
+  {
+    "id": "6",
+    "name": "오리로스",
+    "price": 20000,
+    "description": "더 구우면 질기고 안 구우면 배아픈 고기",
+    "image_url": "/goods_images/6.jpg"
+  },
+  {
+    "id": "7",
+    "name": "돈까스",
+    "price": 6000,
+    "description": "남자들의 소울 푸드",
+    "image_url": "/goods_images/7.jpg"
+  }
+]

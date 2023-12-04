@@ -1,0 +1,51 @@
+{
+  "settings": {
+    "analysis": {
+      "tokenizer": {
+        "seunjeon": {
+          "type": "seunjeon_tokenizer"
+        }
+      },
+      "analyzer": {
+        "korean": {
+          "type": "custom",
+          "tokenizer": "seunjeon"
+        }
+      }
+    }
+  },
+  "mappings": {
+    "properties": {
+      "description": {
+        "type": "text",
+        "analyzer": "korean"
+      },
+      "id": {
+        "type": "long"
+      },
+      "image_size": {
+        "type": "long"
+      },
+      "image_title": {
+        "type": "text",
+        "analyzer": "korean"
+      },
+      "image_uri": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "name": {
+        "type": "text",
+        "analyzer": "korean"
+      },
+      "price": {
+        "type": "long"
+      }
+    }
+  }
+}
